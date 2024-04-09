@@ -171,8 +171,6 @@ public class Main {
 				}
 			}
 		}
-
-		
 		return cordi;
 	}
 
@@ -264,9 +262,7 @@ public class Main {
 
 		return max;
 	}
-	
-	
-	
+
 	private static Rabbit getMaxRabbit() {
 		Rabbit max = hashmap.get(standard_id);
 		for(int id : hashmap.keySet()) {
