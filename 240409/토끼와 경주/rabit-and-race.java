@@ -28,7 +28,6 @@ public class Main {
 			hashmap.put(id, new Rabbit(id, d));
 		}
 		
-
 		for(int q = 1; q < Q; q++) {
 			line = bf.readLine().split(" ");
 			
@@ -78,8 +77,6 @@ public class Main {
 		int left, rabbit_i, rabbit_j;
 		
 		// 상 이동
-		
-		
 		left = rabbit.d % (((N-rabbit.i) + (rabbit.i-1) ) * 2);
 		rabbit_i = rabbit.i;
 		rabbit_j = rabbit.j;
